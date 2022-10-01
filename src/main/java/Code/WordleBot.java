@@ -15,7 +15,7 @@ public class WordleBot {
     public static JDABuilder builder;
 
     public static void main(String[] args) throws LoginException, FileNotFoundException {
-        String token = "OTY0OTYyODE4NDE3ODkzNDE4.YlsRqA.HTwtBoYbdirBkfk71uZOIfxNB9A";
+        String token = "OTY0OTYyODE4NDE3ODkzNDE4.GnTqxs.Ph4P5wk6So30FscULwGaDRhf4Vul__xdEVYwYA";
         builder = JDABuilder.createDefault(token);
         builder.disableCache(CacheFlag.MEMBER_OVERRIDES, CacheFlag.VOICE_STATE);
 
