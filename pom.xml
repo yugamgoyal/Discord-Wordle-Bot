@@ -8,9 +8,14 @@
     <artifactId>WordleBot</artifactId>
     <version>1.00</version>
 
-    <properties>
+<!--     <properties>
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
+    </properties> -->
+    
+    <properties>
+         <maven.compiler.source>1.8</maven.compiler.source>
+         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
